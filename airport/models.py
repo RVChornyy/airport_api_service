@@ -1,3 +1,6 @@
+from datetime import datetime, timedelta
+import pytz
+
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.conf import settings
@@ -24,6 +27,10 @@ class Crew(models.Model):
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
+    @property
+    def full_name(self):
+        return f"{self.first_name} {self.last_name}"
+
 
 class Airline(models.Model):
     name = models.CharField(max_length=63)
@@ -33,19 +40,15 @@ class Airline(models.Model):
 
 
 class Airplane(models.Model):
+    call_sign = models.CharField(max_length=10)
     type = models.CharField(max_length=63)
-    rows = models.IntegerField()
-    seats_in_row = models.IntegerField()
+    seats = models.IntegerField()
     cruise_mach_speed = models.FloatField()
     airline = models.ForeignKey(Airline, on_delete=models.CASCADE, related_name="airplanes")
     image = models.ImageField(null=True, upload_to=airplane_image_file_path)
 
-    @property
-    def capacity(self) -> int:
-        return self.rows * self.seats_in_row
-
     def __str__(self):
-        return self.type
+        return f"{self.type} ({self.call_sign})"
 
 
 class Route(models.Model):
@@ -86,19 +89,16 @@ class Order(models.Model):
 class Ticket(models.Model):
     flight = models.ForeignKey(Flight,
                                on_delete=models.CASCADE,
-                               related_name="tickets"
-                               )
-    order = models.ForeignKey(
-        Order, on_delete=models.CASCADE, related_name="tickets"
-    )
-    row = models.IntegerField()
+                               related_name="tickets")
+    order = models.ForeignKey(Order,
+                              on_delete=models.CASCADE,
+                              related_name="tickets")
     seat = models.IntegerField()
 
     @staticmethod
-    def validate_ticket(row, seat, airplane, error_to_raise):
+    def validate_ticket(seat, airplane, departure_time, error_to_raise):
         for ticket_attr_value, ticket_attr_name, airplane_attr_name in [
-            (row, "row", "rows"),
-            (seat, "seat", "seats_in_row"),
+            (seat, "seat", "seats"),
         ]:
             count_attrs = getattr(airplane, airplane_attr_name)
             if not (1 <= ticket_attr_value <= count_attrs):
@@ -110,12 +110,18 @@ class Ticket(models.Model):
                         f"(1, {count_attrs})"
                     }
                 )
+            tz_zone = pytz.timezone("UTC")
+            if departure_time < (datetime.now(tz_zone) + timedelta(hours=2)):
+                raise error_to_raise(
+                    "Sorry, but you can not bye tickets in less than two"
+                    "hours before departure time. Please chose another flight!"
+                )
 
     def clean(self):
         Ticket.validate_ticket(
-            self.row,
             self.seat,
             self.flight.airplane,
+            self.flight.departure_time,
             ValidationError,
         )
 
@@ -133,9 +139,9 @@ class Ticket(models.Model):
 
     def __str__(self):
         return (
-            f"{str(self.flight)} (row: {self.row}, seat: {self.seat})"
+            f"{str(self.flight)} seat: {self.seat})"
         )
 
     class Meta:
-        unique_together = ("flight", "row", "seat")
-        ordering = ["row", "seat"]
+        unique_together = ("flight", "seat")
+        ordering = ["seat"]
