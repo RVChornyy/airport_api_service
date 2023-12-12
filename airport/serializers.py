@@ -4,7 +4,13 @@ from django.db import transaction
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 
-from airport.models import Airport, Airplane, Airline, Crew, Flight, Ticket, Order
+from airport.models import (Airport,
+                            Airplane,
+                            Airline,
+                            Crew,
+                            Flight,
+                            Ticket,
+                            Order)
 from utilities.get_weather import get_weather
 
 
@@ -15,7 +21,9 @@ class AirportSerializer(serializers.ModelSerializer):
 
 
 class AirportDetailSerializer(AirportSerializer):
-    current_weather = serializers.SerializerMethodField(method_name="get_airport_weather")
+    current_weather = serializers.SerializerMethodField(
+        method_name="get_airport_weather"
+    )
 
     class Meta:
         model = Airport
@@ -59,6 +67,12 @@ class AirplaneDetailSerializer(AirplaneSerializer):
         )
 
 
+class AirplaneImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Airplane
+        fields = ("id", "image")
+
+
 class AirplaneAirlineSerializer(AirplaneSerializer):
     class Meta:
         model = Airplane
@@ -66,7 +80,7 @@ class AirplaneAirlineSerializer(AirplaneSerializer):
             "id",
             "call_sign",
             "type",
-            "seats"
+            "seats",
             "image",
         )
 
@@ -141,8 +155,12 @@ class FlightDetailSerializer(FlightSerializer):
     taken_seats = TicketSeatsSerializer(
         source="tickets", many=True, read_only=True
     )
-    tickets_available = serializers.SerializerMethodField(method_name="get_tickets_available")
-    arrival_time = serializers.SerializerMethodField(method_name="get_arrival_time")
+    tickets_available = serializers.SerializerMethodField(
+        method_name="get_tickets_available"
+    )
+    arrival_time = serializers.SerializerMethodField(
+        method_name="get_arrival_time"
+    )
 
     class Meta:
         model = Flight
@@ -160,13 +178,21 @@ class FlightDetailSerializer(FlightSerializer):
     @staticmethod
     def get_arrival_time(obj):
         """
-        Function calculates arrival time by adding approximate flight time to departure time.
-        Flight time is calculating dividing route distance by average cruise speed.
-        Average cruise speed is measured in knots and is a result of multiplication of average mach speed
-        by special coefficient(550), that is an average TAS(true air speed) at 1 Mach at flight level 360(36000 ft).
+        Function calculates arrival time by adding approximate
+        flight time to departure time.
+        Flight time is calculating dividing route distance
+        by average cruise speed.
+        Average cruise speed is measured in knots
+        and is a result of multiplication of average mach speed
+        by special coefficient(550), that is an average TAS(true air speed)
+        at 1 Mach at flight level 360(36000 ft).
 
         """
-        flight_time = timedelta(hours=round((obj.route.distance / (obj.airplane.cruise_mach_speed * 550)), 1))
+        flight_time = timedelta(
+            hours=round(
+                (obj.route.distance / (obj.airplane.cruise_mach_speed * 550)
+                 ), 1)
+        )
         print(flight_time)
         return obj.departure_time + flight_time
 
@@ -177,7 +203,10 @@ class FlightDetailSerializer(FlightSerializer):
 
 class TicketListSerializer(TicketSerializer):
     flight = serializers.CharField(source="flight.route", read_only=True)
-    departure_time = serializers.CharField(source="flight.departure_time", read_only=True)
+    departure_time = serializers.CharField(
+        source="flight.departure_time",
+        read_only=True
+    )
 
     class Meta:
         model = Ticket

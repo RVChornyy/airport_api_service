@@ -44,7 +44,9 @@ class Airplane(models.Model):
     type = models.CharField(max_length=63)
     seats = models.IntegerField()
     cruise_mach_speed = models.FloatField()
-    airline = models.ForeignKey(Airline, on_delete=models.CASCADE, related_name="airplanes")
+    airline = models.ForeignKey(Airline,
+                                on_delete=models.CASCADE,
+                                related_name="airplanes")
     image = models.ImageField(null=True, upload_to=airplane_image_file_path)
 
     def __str__(self):
@@ -52,8 +54,12 @@ class Airplane(models.Model):
 
 
 class Route(models.Model):
-    departure = models.ForeignKey(Airport, on_delete=models.CASCADE, related_name="departures")
-    arrival = models.ForeignKey(Airport, on_delete=models.CASCADE, related_name="arrivals")
+    departure = models.ForeignKey(Airport,
+                                  on_delete=models.CASCADE,
+                                  related_name="departures")
+    arrival = models.ForeignKey(Airport,
+                                on_delete=models.CASCADE,
+                                related_name="arrivals")
     distance = models.PositiveIntegerField()
 
     def __str__(self):
@@ -61,8 +67,12 @@ class Route(models.Model):
 
 
 class Flight(models.Model):
-    route = models.ForeignKey(Route, on_delete=models.CASCADE, related_name="flights")
-    airplane = models.ForeignKey(Airplane, on_delete=models.CASCADE, related_name="flights")
+    route = models.ForeignKey(Route,
+                              on_delete=models.CASCADE,
+                              related_name="flights")
+    airplane = models.ForeignKey(Airplane,
+                                 on_delete=models.CASCADE,
+                                 related_name="flights")
     departure_time = models.DateTimeField()
     crew = models.ManyToManyField(Crew, related_name="flights")
 
