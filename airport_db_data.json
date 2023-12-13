@@ -1,0 +1,1527 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-12-11T11:47:56.375Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "WINDROSE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-12-11T11:48:05.440Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "UIA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-12-11T11:52:53.545Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Embraer 145",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-12-11T11:54:05.674Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Boryspil (UKBB)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-12-11T11:54:15.729Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Madrir (LEMD)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-12-11T11:54:20.290Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Madrir (LEMD)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-12-11T11:54:32.637Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Madrid (LEMD)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Closest big city\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-12-11T11:55:21.917Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Rostyslav Chornyy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-12-11T11:56:10.253Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Maksym Chornyy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-12-11T11:58:09.832Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Boryspil (UKBB) - Madrid (LEMD)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-12-11T11:58:24.792Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Madrid (LEMD) - Boryspil (UKBB)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-12-11T12:00:23.327Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Boryspil (UKBB) - Madrid (LEMD) at 2023-12-12 18:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-12-11T13:59:03.439Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Madrid (LEMD) - Boryspil (UKBB) at 2023-12-12 07:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-12-11T17:59:29.541Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Embraer 190 (UR-EMA)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-12-11T17:59:29.571Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-12-11T18:08:47.103Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-12-11T18:09:13.310Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Embraer 190 (UR-EMA)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-12-11T18:09:58.514Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Boryspil (UKBB) - Madrid (LEMD) at 2023-12-12 18:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-12-11T18:10:21.706Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Madrid (LEMD) - Boryspil (UKBB) at 2023-12-13 07:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-12-11T19:09:28.213Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Boryspil (UKBB) - Madrid (LEMD) at 2023-12-11 19:09:20+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-12-11T20:53:56.793Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "rv4rost@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-12-11T20:54:25.092Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "rv4rost@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-12-11T21:39:50.892Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-12-11T21:50:45.947Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-12-11T21:53:18.722Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-12-11T21:55:35.283Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Embraer 190 (UR-EMB)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-12-11T22:01:04.692Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-12-11T22:02:27.850Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-12-11T22:02:52.796Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-12-11T22:29:45.903Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-12-11T22:30:09.667Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Embraer 145 (UR-DNR)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-12-11T22:31:34.781Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Boeing 737 (UR-SOG)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-12-11T22:32:03.631Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Boeing 737 (UR-SOG)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-12-11T22:32:58.203Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Boeing 737 (UR-SOG)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-12-11T22:33:18.679Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Boeing 737 (UR-SOG)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-12-12T09:12:54.591Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Boryspil (UKBB) - Amsterdam (EHAM)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-12-12T09:13:06.143Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Amsterdam (EHAM) - Boryspil (UKBB)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-12-12T09:13:28.731Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Madrid (LEMD) - Amsterdam (EHAM)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-12-12T09:13:47.191Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Amsterdam (EHAM) - Madrid (LEMD)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-12-12T09:15:02.237Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "Madrid (LEMD) - Boryspil (UKBB) at 2023-12-13 10:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-12-12T09:15:33.795Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Madrid (LEMD) - Amsterdam (EHAM) at 2023-12-12 14:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-12-12T09:16:05.068Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "9",
+    "object_repr": "Amsterdam (EHAM) - Madrid (LEMD) at 2023-12-13 15:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-12-12T09:16:38.039Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "10",
+    "object_repr": "Amsterdam (EHAM) - Boryspil (UKBB) at 2023-12-14 14:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-12-12T10:22:27.214Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "2023-12-11 21:40:36.629204+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-12-12T10:22:27.230Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "2023-12-11 18:34:11.810834+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add airline",
+    "content_type": 6,
+    "codename": "add_airline"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change airline",
+    "content_type": 6,
+    "codename": "change_airline"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete airline",
+    "content_type": 6,
+    "codename": "delete_airline"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view airline",
+    "content_type": 6,
+    "codename": "view_airline"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add airport",
+    "content_type": 7,
+    "codename": "add_airport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change airport",
+    "content_type": 7,
+    "codename": "change_airport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete airport",
+    "content_type": 7,
+    "codename": "delete_airport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view airport",
+    "content_type": 7,
+    "codename": "view_airport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add crew",
+    "content_type": 8,
+    "codename": "add_crew"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change crew",
+    "content_type": 8,
+    "codename": "change_crew"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete crew",
+    "content_type": 8,
+    "codename": "delete_crew"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view crew",
+    "content_type": 8,
+    "codename": "view_crew"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add route",
+    "content_type": 10,
+    "codename": "add_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change route",
+    "content_type": 10,
+    "codename": "change_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete route",
+    "content_type": 10,
+    "codename": "delete_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view route",
+    "content_type": 10,
+    "codename": "view_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add ticket",
+    "content_type": 11,
+    "codename": "add_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change ticket",
+    "content_type": 11,
+    "codename": "change_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete ticket",
+    "content_type": 11,
+    "codename": "delete_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view ticket",
+    "content_type": 11,
+    "codename": "view_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add airplane",
+    "content_type": 12,
+    "codename": "add_airplane"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change airplane",
+    "content_type": 12,
+    "codename": "change_airplane"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete airplane",
+    "content_type": 12,
+    "codename": "delete_airplane"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view airplane",
+    "content_type": 12,
+    "codename": "view_airplane"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add flight",
+    "content_type": 13,
+    "codename": "add_flight"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change flight",
+    "content_type": 13,
+    "codename": "change_flight"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete flight",
+    "content_type": 13,
+    "codename": "delete_flight"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view flight",
+    "content_type": 13,
+    "codename": "view_flight"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 14,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 14,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 14,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 14,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "airport",
+    "model": "airline"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "airport",
+    "model": "airport"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "airport",
+    "model": "crew"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "airport",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "airport",
+    "model": "route"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "airport",
+    "model": "ticket"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "airport",
+    "model": "airplane"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "airport",
+    "model": "flight"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "user",
+    "model": "user"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "osx3wxw5ond8qnfjadggr7nfw8farmqq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pACAoNL9z0Dmc6AVA0kpV0Z765NutDtf-_9l4i4rSVuPS1xZnERSpx-twnpkeoO-I711iS1ui7zJHdFHrTLsXF6Xg_376BgL9-ajLZsmcEbD0CglNWWNHkHGYMJwxksuOANZhw0sg82h6ycQjORYyXeH8D_Ny0:1rCejy:0YWOb5mbo85NhjbtqoizOKA_CmqOF_ZxRVmFcXsGd8Y",
+    "expire_date": "2023-12-25T11:46:26.272Z"
+  }
+},
+{
+  "model": "airport.airport",
+  "pk": 1,
+  "fields": {
+    "icao_designator": "UKBB",
+    "closest_big_city": "Boryspil"
+  }
+},
+{
+  "model": "airport.airport",
+  "pk": 2,
+  "fields": {
+    "icao_designator": "LEMD",
+    "closest_big_city": "Madrid"
+  }
+},
+{
+  "model": "airport.airport",
+  "pk": 3,
+  "fields": {
+    "icao_designator": "EHAM",
+    "closest_big_city": "Amsterdam"
+  }
+},
+{
+  "model": "airport.crew",
+  "pk": 1,
+  "fields": {
+    "first_name": "Rostyslav",
+    "last_name": "Chornyy",
+    "license_number": "FCL-0146"
+  }
+},
+{
+  "model": "airport.crew",
+  "pk": 2,
+  "fields": {
+    "first_name": "Maksym",
+    "last_name": "Chornyy",
+    "license_number": "FCL-0198"
+  }
+},
+{
+  "model": "airport.airline",
+  "pk": 1,
+  "fields": {
+    "name": "WINDROSE"
+  }
+},
+{
+  "model": "airport.airline",
+  "pk": 2,
+  "fields": {
+    "name": "UIA"
+  }
+},
+{
+  "model": "airport.airline",
+  "pk": 3,
+  "fields": {
+    "name": "SkyUp"
+  }
+},
+{
+  "model": "airport.airplane",
+  "pk": 4,
+  "fields": {
+    "call_sign": "UR-EMA",
+    "type": "Embraer 190",
+    "seats": 110,
+    "cruise_mach_speed": 0.78,
+    "airline": 2,
+    "image": "uploads/airplanes/ur-ema-1ab25f52-dfb3-4716-8785-4b717b69828c.jpg"
+  }
+},
+{
+  "model": "airport.airplane",
+  "pk": 6,
+  "fields": {
+    "call_sign": "UR-EMB",
+    "type": "Embraer 190",
+    "seats": 100,
+    "cruise_mach_speed": 0.78,
+    "airline": 2,
+    "image": "uploads/airplanes/ur-emb-4b8fc895-8e4f-426b-9c6b-43b7b84ec4ae.jpg"
+  }
+},
+{
+  "model": "airport.airplane",
+  "pk": 11,
+  "fields": {
+    "call_sign": "UR-PSG",
+    "type": "Boeing 737",
+    "seats": 180,
+    "cruise_mach_speed": 0.82,
+    "airline": 2,
+    "image": "uploads/airplanes/ur-psg-4b7b650a-3834-4603-aefd-f969936e3c52.jpg"
+  }
+},
+{
+  "model": "airport.airplane",
+  "pk": 12,
+  "fields": {
+    "call_sign": "UR-WRJ",
+    "type": "Airbus 321",
+    "seats": 183,
+    "cruise_mach_speed": 0.82,
+    "airline": 1,
+    "image": "uploads/airplanes/ur-wrj-42047840-7cf5-41c8-9c3e-c3286e393832.jpg"
+  }
+},
+{
+  "model": "airport.route",
+  "pk": 1,
+  "fields": {
+    "departure": 1,
+    "arrival": 2,
+    "distance": 1200
+  }
+},
+{
+  "model": "airport.route",
+  "pk": 2,
+  "fields": {
+    "departure": 2,
+    "arrival": 1,
+    "distance": 1220
+  }
+},
+{
+  "model": "airport.route",
+  "pk": 3,
+  "fields": {
+    "departure": 1,
+    "arrival": 3,
+    "distance": 720
+  }
+},
+{
+  "model": "airport.route",
+  "pk": 4,
+  "fields": {
+    "departure": 3,
+    "arrival": 1,
+    "distance": 730
+  }
+},
+{
+  "model": "airport.route",
+  "pk": 5,
+  "fields": {
+    "departure": 2,
+    "arrival": 3,
+    "distance": 400
+  }
+},
+{
+  "model": "airport.route",
+  "pk": 6,
+  "fields": {
+    "departure": 3,
+    "arrival": 2,
+    "distance": 380
+  }
+},
+{
+  "model": "airport.flight",
+  "pk": 6,
+  "fields": {
+    "route": 1,
+    "airplane": 4,
+    "departure_time": "2023-12-11T21:33:20Z",
+    "crew": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "airport.flight",
+  "pk": 7,
+  "fields": {
+    "route": 2,
+    "airplane": 4,
+    "departure_time": "2023-12-13T10:00:00Z",
+    "crew": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "airport.flight",
+  "pk": 8,
+  "fields": {
+    "route": 5,
+    "airplane": 6,
+    "departure_time": "2023-12-12T14:00:00Z",
+    "crew": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "airport.flight",
+  "pk": 9,
+  "fields": {
+    "route": 6,
+    "airplane": 6,
+    "departure_time": "2023-12-13T15:00:00Z",
+    "crew": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "airport.flight",
+  "pk": 10,
+  "fields": {
+    "route": 4,
+    "airplane": 4,
+    "departure_time": "2023-12-14T14:00:00Z",
+    "crew": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "airport.order",
+  "pk": 2,
+  "fields": {
+    "created_at": "2023-12-11T21:34:50.303Z",
+    "user": 1
+  }
+},
+{
+  "model": "airport.order",
+  "pk": 4,
+  "fields": {
+    "created_at": "2023-12-11T20:25:44.437Z",
+    "user": 1
+  }
+},
+{
+  "model": "airport.ticket",
+  "pk": 2,
+  "fields": {
+    "flight": 6,
+    "order": 2,
+    "seat": 16
+  }
+},
+{
+  "model": "airport.ticket",
+  "pk": 3,
+  "fields": {
+    "flight": 6,
+    "order": 2,
+    "seat": 18
+  }
+},
+{
+  "model": "airport.ticket",
+  "pk": 6,
+  "fields": {
+    "flight": 6,
+    "order": 4,
+    "seat": 32
+  }
+},
+{
+  "model": "airport.ticket",
+  "pk": 7,
+  "fields": {
+    "flight": 6,
+    "order": 4,
+    "seat": 33
+  }
+},
+{
+  "model": "user.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$qAyFXCqOYJYI3kqvrRzHlF$Mh6HAaCntRrPEHxjKb4lppRFE4I6vPkJYIhTyTZ8hwE=",
+    "last_login": "2023-12-11T11:46:26.253Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-12-11T11:45:38.641Z",
+    "email": "rv4@ukr.net",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$bGkwLtd6abFjY3pVqWMXQc$/XpZprVChihPGqMAZpcApOytJOEiin168pTJsfHEQJo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-12-11T20:53:56Z",
+    "email": "rv4rost@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

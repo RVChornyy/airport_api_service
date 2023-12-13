@@ -1,0 +1,5 @@
+venv
+.env
+db.sqlite3
+airport_service.settings_loc
+.flake8

@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 airport_api_service
 This API creates orders with tickets for traveling by air. Here admin user can create and handle instances for API, such as airports, airplanes, airlines, routes, flights and crew members. Non admin user can create orders with tickets.
 
 Installing using GitHub:
 Install PostgresSql and create db
 
+=======
+# airport_api_service
+This API creates orders with tickets for traveling by air.
+Here admin user can create and handle instances for API, such as
+airports, airplanes, airlines, routes, flights and crew members.
+Non admin user can create orders with tickets.
+
+# Installing using GitHub:
+Install PostgresSql and create db
+~~~
+>>>>>>> 7b22f0cd935a12eae0bc682aa8cb0bd819c82ade
 git clone https://github.com/RVChornyy/airport_api_service.git
 python -m venv venv
 source venv/Scripts/activate
@@ -18,6 +30,7 @@ SECRET_KEY=your secret key
 python manage.py migrate
 python manage.py loaddata airport_db_data.json
 python manage.py runserver
+<<<<<<< HEAD
 Run with Docker:
 Docker should be installed
 
@@ -30,3 +43,28 @@ JWT authentication Admin panel /admin/ Documentation: /api/doc/swagger/ Observe 
 
 Diagram image:
 [https://github.com/RVChornyy/airport_api_service/blob/develop/diagram_image.png]
+=======
+~~~
+# Run with Docker:
+Docker should be installed
+~~~
+docker-compose up
+~~~
+# Users info:
+you can create user:
+/api/user/register/
+access:
+api/user/token
+
+# Features:
+JWT authentication
+Admin panel /admin/
+Documentation: /api/doc/swagger/
+Observe weather at airports
+Filter flights by airports
+
+# Diagram image:
+[https://github.com/RVChornyy/airport_api_service/blob/develop/diagram_image.png]
+
+
+>>>>>>> 7b22f0cd935a12eae0bc682aa8cb0bd819c82ade
