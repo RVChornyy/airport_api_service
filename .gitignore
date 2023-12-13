@@ -377,3 +377,4 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 .flake8
+pycache
